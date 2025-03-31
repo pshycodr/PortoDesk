@@ -1,54 +1,80 @@
-# React + TypeScript + Vite
+# 🚀 Desktop-Like Portfolio (Deskfolio)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, desktop-inspired portfolio built with **React, TypeScript, and Recoil**. This project mimics an operating system UI, featuring draggable windows, built-in apps, and a fully customizable user experience.
 
-Currently, two official plugins are available:
+## 🎨 Features
+- 🖥️ **Desktop-Like UI** – A smooth, multi-window experience.
+- 📁 **Built-in Apps** – Notes, Calculator, To-Do List, and more.
+- 🖱️ **Draggable & Resizable Windows** – Apps behave like real OS applications.
+- 🎨 **Custom Themes** – Light & Dark mode with user preferences.
+- 🔄 **Persistent Data** – Saves notes and tasks across sessions.
+- 🏗️ **Modular Design** – Easily add new applications.
+- ⚡ **Optimized Performance** – Lightweight & fast UI interactions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📂 Project Structure
+```plaintext
+A:.
+│   App.css
+│   App.tsx
+│   index.css
+│   main.tsx
+│   vite-env.d.ts
+│
+├───apps
+│   ├───AboutMe
+│   ├───Calculator
+│   ├───Notes
+│   └───todo-list
+│
+├───assets
+├───hooks
+├───windows
+│   ├───components
+│   ├───data
+│   ├───store
+│   └───types
+└───android
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
+- **Frontend:** React, TypeScript, Recoil, Vite
+- **State Management:** Recoil
+- **Styling:** CSS Modules / Tailwind (if applicable)
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🚀 Getting Started
+### Prerequisites
+Ensure you have **Node.js** and **npm/yarn** installed.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/pshycodr/PortoDesk.git
+cd PortoDesk 
+
+# Install dependencies
+yarn install  # or npm install
+
+# Run the project
+yarn dev  # or npm run dev
 ```
+
+### Build for Production
+```bash
+yarn build  # or npm run build
+```
+
+## 🏗️ Future Improvements
+- 🎵 **Music Player** – Play audio files within the system.
+- 🌐 **Web Browser Mock** – A fun, interactive mini-browser.
+- 📌 **Pinned Apps** – Add shortcuts to frequently used apps.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+## 🙌 Contributing
+Feel free to **fork**, open issues, and submit pull requests!
+
+---
+
+⭐ **If you like this project, consider giving it a star!** ⭐
+
