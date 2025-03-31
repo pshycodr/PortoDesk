@@ -6,10 +6,8 @@ An interactive, desktop-inspired portfolio built with **React, TypeScript, and R
 - 🖥️ **Desktop-Like UI** – A smooth, multi-window experience.
 - 📁 **Built-in Apps** – Notes, Calculator, To-Do List, and more.
 - 🖱️ **Draggable & Resizable Windows** – Apps behave like real OS applications.
-- 🎨 **Custom Themes** – Light & Dark mode with user preferences.
-- 🔄 **Persistent Data** – Saves notes and tasks across sessions.
-- 🏗️ **Modular Design** – Easily add new applications.
-- ⚡ **Optimized Performance** – Lightweight & fast UI interactions.
+
+
 
 ## 📂 Project Structure
 ```plaintext
