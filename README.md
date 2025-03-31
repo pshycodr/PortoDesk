@@ -20,7 +20,7 @@ A:.
 │   main.tsx
 │   vite-env.d.ts
 │
-├───apps
+├───apps           # Built-in applications
 │   ├───AboutMe
 │   ├───Calculator
 │   ├───Notes
@@ -28,12 +28,13 @@ A:.
 │
 ├───assets
 ├───hooks
-├───windows
+├───windows        # Desktop UI 
 │   ├───components
 │   ├───data
 │   ├───store
 │   └───types
-└───android
+└───android        # Mobile UI (not implemented yet)
+
 ```
 
 ## 🛠️ Tech Stack
@@ -67,6 +68,9 @@ yarn build  # or npm run build
 - 🎵 **Music Player** – Play audio files within the system.
 - 🌐 **Web Browser Mock** – A fun, interactive mini-browser.
 - 📌 **Pinned Apps** – Add shortcuts to frequently used apps.
+- 📱 **Mobile UI** – Responsive design for mobile devices.
+- 🎨 **Custom Wallpapers** – Set custom backgrounds.
+- 📂 **File Manager** - To create custom files and folders.
 
 ## 📜 License
 This project is licensed under the **MIT License**.
