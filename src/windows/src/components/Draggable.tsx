@@ -3,6 +3,7 @@ import { FaTimes, FaMinus, FaExpand, FaCompress } from "react-icons/fa";
 
 interface DraggableProps {
   title: string;
+  id: number;
   onClose: () => void;
   children: React.ReactNode;
   initialWidth?: number;
@@ -12,6 +13,7 @@ interface DraggableProps {
 
 const Draggable: React.FC<DraggableProps> = ({
   title,
+  id,
   onClose,
   children,
   initialWidth = 500,

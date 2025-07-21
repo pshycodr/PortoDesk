@@ -2,8 +2,7 @@ import AboutMe from "../../../apps/AboutMe/AboutMe";
 import Calculator from "../../../apps/Calculator/Calculator";
 import NotesApp from "../../../apps/Notes/NotesApp";
 import TodoApp from "../../../apps/todo-list/TodoApp";
-// import NotepadApp from "../../../apps/Notepad/NotepadApp";
-// import CalculatorApp from "../../../apps/Calculator/CalculatorApp";
+
 
 export const appsList = [
   {

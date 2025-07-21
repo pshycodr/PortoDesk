@@ -17,6 +17,7 @@ const FloatingModal = ({ appId }: { appId: number }) => {
   return (
     <Draggable 
       title={app.title}
+      id={app.id}
       onClose={() => setModals(prev => prev.filter(id => id !== appId))}
       initialWidth={app.settings.initialWidth}
       initialHeight={app.settings.initialHeight}
